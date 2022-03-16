@@ -7,10 +7,18 @@
 }
 
 
+/* utilities */
+.bg_color_white{
+    color: white;
+}
 
+
+.bg_primary{
+    background-color: var(--primary);
+}
 header{
     background-color: var(--primary);
-    height: 50px;
+    height: 60px;
 }
 
 
