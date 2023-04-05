@@ -1,0 +1,86 @@
+/*#region UTLITIES*/
+
+:root{
+--success_color: #1ABC9C;
+--primary_color: #2C3E50;
+--secondary_color: #3A546D;
+--typography_color: #1ABC9C;
+}
+
+.contacts {
+    height: 500px;
+}
+
+.secondary_color {
+    background-color: var(--secondary_color);
+}
+
+.primary_color {
+   
+    background-color: var(--primary_color);
+}
+
+.success_color {
+   
+    background-color: var(--success_color);
+}
+
+.tipography_color {
+    color: var(--typography_color);
+}
+
+
+
+
+/*#endregion UTLITIES*/
+
+
+ /*#region class star & portfolio*/
+ 
+ .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star::before, .star::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    
+    background-color: white;
+}
+ 
+.portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.portfolio::before, .portfolio::after {
+   content: "";
+   display: block;
+   width: 100px;
+   height: 2px;
+   background-color: black;
+}
+ 
+ /*#endregion class star & portfolio*/
+
+
+
+
+/*#region form*/
+
+
+.form-control::placeholder {
+   color: black;
+   font-weight: light;
+}
+
+.facebook {
+   width: 30px;
+   height: 30px;
+}
+
+/*#endregion form*/
